@@ -110,3 +110,15 @@
   .header-text{
     display: inline-flex;
   }
+  .icons{
+    display: inline-flex;
+  }
+  .icons .icon{
+    margin: 100px;
+  }
+  .icon:first-child{
+    margin-left: 180px;
+  }
+  .icon article{
+    text-align: center;
+  }
