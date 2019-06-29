@@ -10,7 +10,7 @@
     "main"
     "footer";
     grid-template-columns: 1583px;
-    grid-template-rows: 675px 1045px 100px;
+    grid-template-rows: 675px 1045px 150px;
     min-height: 100vh;
     width: 100%;
   }
@@ -47,7 +47,7 @@
     grid-area: main;
   }
   .footer{
-    background-color: green;
+    background-color: #1e1e1e;
     grid-area: footer;
   }
 
@@ -114,11 +114,25 @@
     display: inline-flex;
   }
   .icons .icon{
-    margin: 100px;
+    margin: 80px;
+    width: 220px;
+    height: 310px;
+    justify-content: center;
   }
   .icon:first-child{
-    margin-left: 180px;
+    margin-left: 120px;
   }
-  .icon article{
+  .icon img{
+    padding: 27px;
+  }
+  .icon h3{
+    font-size: 20px;
     text-align: center;
+  }
+  .rate{
+    display: inline-flex;
+  }
+  .toptrade{
+    display: flex;
+    margin: 100px 50px;
   }
