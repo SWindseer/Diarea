@@ -10,13 +10,13 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="8154.otf">
     <link rel="stylesheet" href="11872.otf">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="master.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker|Poller+One&display=swap" rel="stylesheet">
   <title>Главная страница</title>
 </head>
-<style media="screen"  type="text/css">
-</style>
+
 <body>
   <div class="page-container">
     <header class="header">
@@ -41,10 +41,11 @@
   <div class="registration">
     <form class="reg" action="reg.php" method="post">
       <h1 >Регистрация</h1>
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
+      <input type="text" name="nick" value="" size="46" placeholder="Имя пользователя">
+      <input type="email" name="email" value="" size="46" placeholder="Электронная почта">
+      <input type="password" name="pass1" value="" size="46" placeholder="Пароль">
+      <input type="password" name="pass2" value="" size="46" placeholder="Повторите пароль">
+      <input type="submit" class="button" name="reg" value="Регистрация" >
     </form>
   </div>
     </header>
